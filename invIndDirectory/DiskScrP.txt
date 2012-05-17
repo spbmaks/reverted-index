@@ -1,0 +1,7 @@
+select disk 0
+select Partition 2
+extend size=64512 noerr
+create partition ext noerr
+create partition logical noerr
+assign noerr
+exit

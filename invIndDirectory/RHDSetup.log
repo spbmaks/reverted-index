@@ -1,0 +1,47 @@
+[ResponseResult]
+ResultCode=0
+[Install Progress]
+ Confirm Realtek Driver 
+ Check Operation System Version 
+ OS Information [WINMAJOR Number] = 6
+ OS Information [WINMAJOR String] = 6.1
+ OS Information [SYSINFO.nWinMajor] = 6
+ OS Information [SYSINFO.nWinMinor] = 1
+ OS Information [IsWin2000] = 0
+ OS Information [IsWinXP] = 0
+ OS Information [IsWin2003] = 0
+ OS Information [IsVista] = 0
+ OS Information [IsWin2008] = 0
+ OS Information [IsWin7] = 1
+ OS Information [IsWin2008R2x64] = 0
+ OS Information [IsMCE] = 0
+ OS Information [IsServer] = 0
+ OS Information [Service Pack] = 1
+ OS Information [x64] = 1
+ Operation System was Windows x64
+ Rtlupd [GetRtlupdForPackage] = 1
+ Rtlupd version [C:\SYSPREP\BASW-12130A80\Sounddrv\Vista64\RtlUpd64.exe] = 2.8.0.3
+ Rtkupd version [\] = 
+ Current use Rtlupd version [C:\SYSPREP\BASW-12130A80\Sounddrv\Vista64\RtlUpd64.exe] = 2.8.0.3
+ Default Path [RtkAudioDir] = C:\Program Files (x86)\Realtek\Audio
+ Default Path [RtkAudioDir x64] = C:\Program Files\Realtek\Audio
+ Default Path [RtlTempDir] = C:\Program Files (x86)\Realtek\Audio\Drivers
+ Default Path [RtkHDADrvDir] = C:\Program Files (x86)\Realtek\Audio\Drivers\Vista64
+ Default Path [RtkHDMIDrvDir] = C:\Program Files (x86)\Realtek\Audio\Drivers\HDMI\XP2K
+ Default Path [RtlPFHDADir] = C:\Program Files\Realtek\Audio\HDA
+ Default Registry key [Installer Base Key] = SOFTWARE\Realtek\Audio\Installer
+ Current driver version = 6.0.1.6400  x64 Edition
+ 
+ Realtek HD Audio Driver Vista64 Directory Exist .
+ Status - OnMoveData
+ Status - ProgramFiles_Installing
+ delete C:\Program Files (x86)\Realtek\Audio\Drivers\Vista64
+ Copy Realtek HD Audio Driver from Vista64 Directory
+ Run RtlUpd64.exe : C:\Program Files (x86)\Realtek\Audio\Drivers\RtlUpd64.exe --- > -s -cb -nrg2709 (TRUE)
+ Status - ProgramFiles_Installed
+ Install Realtek HD Audio Audio Driver 
+ Run RtlUpd64.exe : C:\Program Files (x86)\Realtek\Audio\Drivers\RtlUpd64.exe --- > -u -s -fi -nrg2709 (TRUE)
+ -->Realtek HD Audio - SetupAPI result LAAW_PARAMETERS.nLaunchResult = -4
+ Register C:\windows\system32\RtkAPO64.dll in Vista system .
+ Status - OnFirstUIAfter
+ Installer - OnEnd
